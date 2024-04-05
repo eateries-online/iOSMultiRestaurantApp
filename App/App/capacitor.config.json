@@ -1,0 +1,30 @@
+{
+	"appId": "com.demo.karenderia",
+	"appName": "Eateries Online",
+	"bundledWebRuntime": false,
+	"npmClient": "npm",
+	"webDir": "www",
+	"server": {
+		"androidScheme": "https"
+	},
+	"plugins": {
+		"PushNotifications": {
+			"presentationOptions": [
+				"badge",
+				"sound",
+				"alert"
+			]
+		},
+		"GoogleAuth": {
+			"scopes": [
+				"profile",
+				"email"
+			],
+			"serverClientId": "381274570762-dsdi26sihvbf6msvr1bfms0n0el8045o.apps.googleusercontent.com",
+			"forceCodeForRefreshToken": true
+		},
+		"SplashScreen": {
+			"androidScaleType": "CENTER_CROP"
+		}
+	}
+}
